@@ -18,7 +18,7 @@
             <div class="productsList">
                 <product-item v-for="(item, index) in products_list" :key="index" :item="item"></product-item>
             </div>
-        </div>
+        </div> 
 
         <footer-plugin></footer-plugin>
     </div>
